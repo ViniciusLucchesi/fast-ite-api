@@ -6,10 +6,3 @@ class Student(BaseModel):
     ra: str
     email: str | None
     course: str | None
-
-
-class UpdateStudent(BaseModel):
-    name: str | None
-    ra: str | None
-    email: str | None
-    course: str | None
